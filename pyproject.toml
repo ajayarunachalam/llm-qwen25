@@ -1,0 +1,32 @@
+[project]
+name = "llm-qwen25"
+version = "0.0.1"
+description = "Qwen2.5-0.5B.Q8_0 for LLM"
+readme = "README.md"
+authors = [{name = "Ajay Arunachalam"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+requires-python = ">=3.9"
+dependencies = [
+    "llm",
+    "llama-cpp-python>=0.3.7",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/ajayarunachalam/llm-qwen25"
+Issues = "https://github.com/ajayarunachalam/llm-qwen25/issues"
+
+[project.entry-points.llm]
+qwen25 = "llm_qwen25"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.package-data]
+llm_qwen25 = ["Qwen2.5-0.5B.Q8_0.gguf"]
