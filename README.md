@@ -17,7 +17,7 @@ uvx --with llm-qwen25 llm chat -m Qwen25
 ```
 ## Usage
 
-This plugin bundles a full copy of the [Qwen2.5-0.5B](https://huggingface.co/Qwen/Qwen2.5-0.5B) quantized version of the [Qwen2.5-0.5B.Q8_0.gguf](https://huggingface.co/QuantFactory/Qwen2.5-0.5B-GGUF) model by [QuantFactory](https://huggingface.co/QuantFactory).
+This plugin bundles a full copy of the [Qwen2.5-0.5B](https://huggingface.co/Qwen/Qwen2.5-0.5B) with a quantized version [Qwen2.5-0.5B.Q8_0.gguf](https://huggingface.co/QuantFactory/Qwen2.5-0.5B-GGUF) model provided by [QuantFactory](https://huggingface.co/QuantFactory).
 
 Once installed, run the model like this:
 ```bash
