@@ -46,4 +46,4 @@ python -m pytest
 ```
 
 ## Credits
-Inspired from the amazing work of Simon Willison
+Inspired from the amazing work of [Simon Willison](https://github.com/simonw)
