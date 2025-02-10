@@ -44,3 +44,6 @@ To run the tests:
 ```bash
 python -m pytest
 ```
+
+## Credits
+Inspired from the amazing work of Simon Willison
