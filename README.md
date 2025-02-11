@@ -20,5 +20,8 @@ Once installed, to chat with the model:
 llm chat -m Qwen25
 ```
 
+![alt text](https://github.com/ajayarunachalam/llm-qwen25/blob/main/snapshot.png)
+
+
 ## Credits
 Inspired from the amazing work of [Simon Willison](https://github.com/simonw)
