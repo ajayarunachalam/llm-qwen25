@@ -7,42 +7,17 @@ Qwen2.5-0.5B.Q8_0 for LLM.
 
 ## Installation
 
-Install this plugin in the same environment as [LLM](https://llm.datasette.io/).
+Download the whl file from here [llm_qwen25-0.0.1-py3-none-any.whl](https://drive.google.com/file/d/1qezCUs2Ltg6sqwwdX8ZFvZpNxb97A83V/view?usp=sharing) to your root directory within the virtual environment.
 ```bash
-llm install llm-qwen25
-```
-If you have [uv](https://github.com/astral-sh/uv) installed you can chat with the model without any installation step like this:
-```bash
-uvx --with llm-qwen25 llm chat -m Qwen25
+pip install ./llm_qwen25-0.0.1-py3-none-any.whl
 ```
 ## Usage
 
 This plugin bundles a full copy of the [Qwen2.5-0.5B](https://huggingface.co/Qwen/Qwen2.5-0.5B) with a quantized version [Qwen2.5-0.5B.Q8_0.gguf](https://huggingface.co/QuantFactory/Qwen2.5-0.5B-GGUF) model provided by [QuantFactory](https://huggingface.co/QuantFactory).
 
-Once installed, run the model like this:
-```bash
-llm -m Qwen25 'Hi'
-```
-Or to chat with the model (keeping it resident in memory):
+Once installed, to chat with the model:
 ```bash
 llm chat -m Qwen25
-```
-
-## Development
-
-To set up this plugin locally, first checkout the code. Then create a new virtual environment:
-```bash
-cd llm-qwen25
-python -m venv venv
-source venv/bin/activate
-```
-Now install the dependencies and test dependencies:
-```bash
-llm install -e '.[test]'
-```
-To run the tests:
-```bash
-python -m pytest
 ```
 
 ## Credits
